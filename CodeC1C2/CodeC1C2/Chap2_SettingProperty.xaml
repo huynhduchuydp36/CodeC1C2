@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CodeC1C2.Chap2_SettingProperty"
+             Title="Setting Property Values">
+    <ContentPage.Content>
+        <StackLayout Padding="30,30">
+            <Label Text="Property Element" />
+            <Label Text="Content Property" />
+            <Button FontSize="Medium" Text="Medium Size Button" />
+            <Button FontAttributes="Italic,Bold" Text="Italic Bold Button" />
+            <Button Text="Make It So" Clicked="Button_Clicked" />
+            <Grid>
+                <Label Grid.Row="1" Grid.Column="1" Text="Cell (1,1)" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
